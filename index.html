@@ -7,67 +7,88 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="headerIndex">
+    <header>
         <nav>
-            <div class="links">
+            <div style="color: aquamarine; color: aquamarine;" class="links">
                 <ul id="cnopkalar">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="catalog.html">Catalog</a></li>
-                    <li><a href="bella.html">Bella</a></li>
-                    <li><a href="shope.html">Shop</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="pages.html">Pages</a></li>
+                    <li><a href="blog.html">Менің Жетсітіктерім</a></li>
+                    <li><a href="shope.html">Тілек</a></li>
                 </ul>
             </div>
+            <button style="margin-top:20px; color: white; background-color: red; font-size: 16px; border-radius: 15px;" id="btn">Үстіге шығару</button>
         </nav>
     </header>
-
     <main class="main-content">
         <div class="background-container">
             <img src="winter pgone photo.jpg" alt="Christmas Background" class="background-img">
             <div class="overlay">
                 <h1 class="christmas">Christmas Sales</h1>
-                <p class="bestChristmas">Buy Best Christmas Gift For Your Love Family Hurry Up...!</p>
+                <p class="bestChristmas">Buy Best Christmas Gift For Your Loved Family. Hurry Up...!</p>
             </div>
         </div>
         <section class="list-section">
-            <h1 class="myAchiviments">Менің жетістіктерім</h1>
+            <h1 class="myAchievements" style="color: black;">Менің жетістіктерім</h1>
             <div class="list-container">
-                    <div class="list-card">
-                        <img class="my-list" src="WhatsApp Image 2024-12-23 at 23.24.54.jpeg" alt="">
-                         <h2 class="achive">My achievement in the foodbol</h2>
-                    </div>
+                <div class="list-card">
+                    <img class="my-list" src="WhatsApp Image 2024-12-23 at 23.24.54.jpeg" alt="Achievement in Football">
+                    <h2 class="achieve" style="color:aquamarine;">My Achievement in Football</h2>
+                </div>
+                <div class="list-card">
+                    <img src="html,css photo.png" class="language" alt="HTML and CSS">
+                    <h2 style="color:orangered;">Language</h2>
+                </div>
+                <div class="list-card">
+                    <img src="javascript.png" class="language" alt="HTML and CSS">
+                    <h2 style="color:yellow;">Language</h2>
+                </div>
             </div>
         </section>
     </main>
+
+    <main>
+        <div class="countdown-container">
+            <h1>🎉 New Year Countdown 🎉</h1>
+            <div id="countdown">
+                <div><span id="days">0</span> Күн</div>
+                <div><span id="hours">0</span> Сағат</div>
+                <div><span id="minutes">0</span> Минут</div>
+                <div><span id="seconds">0</span> Секунд</div>
+            </div>
+        </div>
+    </main>
+
     <main>
         <div class="container">
-            <h1 class="search">Subscribe to me</h1>
+            <h1 class="search">Subscribe to Me</h1>
             <form id="searchForm">
-                <input class="input" type="email" id="searchInput" placeholder="Введите email..."  required>
+                <input class="input" type="email" id="searchInput" placeholder="Enter email..." required>
                 <button class="subscribe-btn">SUBSCRIBE</button>
             </form>
             <div id="results"></div>
         </div>
     </main>
+
     <main class="information">
         <div class="information-me">
-            <img class="my-photo" src="WhatsApp Image 2024-12-24 at 00.32.35.jpeg" alt="">
+            <img class="my-photo" src="WhatsApp Image 2024-12-24 at 00.32.35.jpeg" alt="My Photo">
         </div>
-        <div class="whriter">
+        <div class="writer">
             <h4 style="color: yellow;">Berdakhmet Bekarys</h4>
-            <p>Мен Amjilt Cyber School-дің студентімін. Жәнеде маған осы жерде оқыған ұнайды. Себебі бұл жерде сабақты жақсы түсіндіреді, жәнеде бәр жағдайды жасап береді</p>
+            <p>Мен Amjilt Cyber School-дің студентімін. Жәнеде маған осы жерде оқыған ұнайды. Себебі бұл жерде сабақты жақсы түсіндіреді, жәнеде бәр жағдайды жасап береді.Ғалымбек ағғайға жәнеде Аружан апайға рахмет! My wish for teachers. I hope you have a holiday that fills your heart with joy.May your dreams come true.My best wishes to you.</p>
         </div>
     </main>
+
     <footer class="footer">
         <div class="end">
-            <img class="amjilt-logo" src="Amjilt.jpg" alt="">
+            <img class="amjilt-logo" src="Amjilt.jpg" alt="Amjilt Logo">
         </div>
         <div class="local">
-            <img class="local-img" src="local.png" alt="">
+            <img class="local-img" src="local.png" alt="Local">
         </div>
-        <h2 class="contackt">Contact number:</h2>
+        <h2 class="contact" style="color: yellow;">Contact Number:</h2>
         <p class="number">8 (707) 361 10 23</p>
     </footer>
+
+    <script src="logika.js"></script>
 </body>
 </html>
